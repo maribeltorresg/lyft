@@ -3,23 +3,31 @@
     margin: 0;
     padding: 0;
 }
-img {
+header {
+    position: fixed;
     width: 100%;
-}
-.container {
-    margin: auto;
+    z-index: 1000;
 }
 header figure {
     display: inline-block;
+    margin-left: 100px;
     width: 70px;
 }
+header figure img {
+    width: 100%;
+}
 nav {
-    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top: 7%;
+    transform: translateY(-50%);
 }
 nav ul li {
     list-style: none;
     display: inline-block;
+    margin: 20px;
 }
 nav ul li a {
+    display: block;
     text-decoration: none;
 }
