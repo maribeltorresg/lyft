@@ -40,6 +40,23 @@ nav ul li a:hover {
 hr {
     top: 60px;
 }
+<<<<<<< HEAD
 div{
     
+=======
+
+/*clase reutilizable*/
+
+body{
+    font-family: Montserrat;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/*Seccion inicial*/
+
+.start{
+    background-image: url(assets/images/hero.gif);
+>>>>>>> b7a2287896f940182829bfeb32e6c61c08b4ca0b
 }
