@@ -24,6 +24,17 @@ nav ul li a {
     text-decoration: none;
 }
 
-div{
-    
+/*clase reutilizable*/
+
+body{
+    font-family: Montserrat;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/*Seccion inicial*/
+
+.start{
+    background-image: url(assets/images/hero.gif);
 }
