@@ -1,3 +1,25 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+.container {
+    margin: auto;
+}
+header figure {
+    display: inline-block;
+    width: 70px;
+}
+nav {
+    display: inline-block;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+}
