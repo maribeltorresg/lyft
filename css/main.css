@@ -4,8 +4,12 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 header {
-    position: fixed;
+    background-color: #ddd;
+    padding: 15px;
     width: 100%;
     z-index: 1000;
 }
@@ -18,10 +22,8 @@ header figure img {
     width: 100%;
 }
 nav {
-    position: absolute;
-    right: 5%;
-    top: 7%;
-    transform: translateY(-50%);
+    float: right;
+    margin-right: 100px;
 }
 nav ul li {
     list-style: none;
@@ -31,7 +33,18 @@ nav ul li {
 nav ul li a {
     display: block;
     text-decoration: none;
+    color: #333447;
 }
+nav ul li a:hover {
+    color: #ff00bf;
+}
+hr {
+    top: 60px;
+}
+<<<<<<< HEAD
+div{
+    
+=======
 
 /*clase reutilizable*/
 
@@ -45,6 +58,7 @@ body{
 /*Seccion inicial*/
 
 .start{
+<<<<<<< HEAD
     background-image: url(../assets/images/hero.gif);
     margin-top:100px;
     width: 100%;
@@ -61,4 +75,8 @@ body{
     padding-left: .9375rem;
     padding-right: .9375rem;
 }
+=======
+    background-image: url(assets/images/hero.gif);
+>>>>>>> b7a2287896f940182829bfeb32e6c61c08b4ca0b
+>>>>>>> e7e7c43087470938cc69cf5ffa2a1249c72103f7
 }
