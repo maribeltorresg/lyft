@@ -257,4 +257,26 @@ a{
   .video-left {
     float: left;
   }
+  /* Pie de pagina */
+ footer {
+     color: #fff;
+     background-color: #333447;
+     font-size: 0;
+ }
+ footer a {
+     color: #fff;
+     text-decoration: none;
+ }
+ footer ul {
+    list-style: none;
+ }
+ .box {
+     display: inline-block;
+     font-size: 14px;
+     width: 25%;
+ }
+ .app img {
+     display: block;
+     width: 100px;
+ }
  
