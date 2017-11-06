@@ -230,7 +230,7 @@ a{
 
 /*Primera secciom video*/
 
-.first-video, .second-video {
+.first-video, .second-video, .third-video {
     width: 100%;
     height: 500px;
   }
