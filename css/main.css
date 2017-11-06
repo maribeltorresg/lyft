@@ -195,7 +195,7 @@ a{
 
 /*Información junto al telefono*/
 .information {
-    background: linear-gradient(180deg,#76278f,#2b1e66);
+    background:linear-gradient(#76278F, #2B1E66);
     color: #fff;
 }
 .box-text {
