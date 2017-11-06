@@ -123,7 +123,7 @@ main{
 .login input{
     outline: none;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #352384;
     line-height: 50px;
     width: 300px;
     color: #728099;
